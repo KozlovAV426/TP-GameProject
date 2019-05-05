@@ -6,3 +6,7 @@ script:
   - cmake ..
   - make
   - ./gameproject
+  
+notifications:
+  email:
+      - kozlovanatoly06@yandex.ru
