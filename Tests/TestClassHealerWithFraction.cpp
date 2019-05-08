@@ -142,10 +142,10 @@ TEST_F(TestHealerWithFraction, ToHeal_Test) {
     Unit* friend_warrior = new AllianceWarrior;
     friend_warrior->SetHealthPoints(200);
     alliance_healer->SetPowerOfMagic(10);
-    alliance_healer->ToHeal(*friend_warrior);
+    alliance_healer->ToHeal(friend_warrior);
     EXPECT_EQ(friend_warrior->GetHP(), 210);
     horde_healer->SetPowerOfMagic(20);
-    horde_healer->ToHeal(*friend_warrior);
+    horde_healer->ToHeal(friend_warrior);
     EXPECT_EQ(friend_warrior->GetHP(), 230);
     delete friend_warrior;
 }

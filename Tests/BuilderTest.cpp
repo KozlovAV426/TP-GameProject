@@ -15,6 +15,10 @@ protected:
         alliance_warrior_builder = new AllianceWarriorBuilder;
         horde_healer_builder = new HordeHealerBuilder;
         alliance_healer_builder = new AllianceHealerBuilder;
+        horde_warrior_builder->CreateNewUnit();
+        alliance_warrior_builder->CreateNewUnit();
+        horde_healer_builder->CreateNewUnit();
+        alliance_healer_builder->CreateNewUnit();
     }
     CharacterBuilder* horde_warrior_builder;
     CharacterBuilder* alliance_warrior_builder;
@@ -27,10 +31,10 @@ TEST_F(TestBuilder, BuildHealthPoints_Test) {
     alliance_healer_builder->BuildHealthPoints();
     horde_warrior_builder->BuildHealthPoints();
     alliance_warrior_builder->BuildHealthPoints();
-    EXPECT_EQ(50, horde_healer_builder->GetCharacter()->GetHP());
-    EXPECT_EQ(50, alliance_healer_builder->GetCharacter()->GetHP());
-    EXPECT_EQ(100, horde_warrior_builder->GetCharacter()->GetHP());
-    EXPECT_EQ(100, alliance_warrior_builder->GetCharacter()->GetHP());
+    EXPECT_EQ(10, horde_healer_builder->GetCharacter()->GetHP());
+    EXPECT_EQ(10, alliance_healer_builder->GetCharacter()->GetHP());
+    EXPECT_EQ(15, horde_warrior_builder->GetCharacter()->GetHP());
+    EXPECT_EQ(15, alliance_warrior_builder->GetCharacter()->GetHP());
 }
 
 TEST_F(TestBuilder, BuildMeleeForce_Test) {
@@ -40,8 +44,8 @@ TEST_F(TestBuilder, BuildMeleeForce_Test) {
     alliance_warrior_builder->BuildMeleeForce();
     EXPECT_EQ(0, horde_healer_builder->GetCharacter()->GetMF());
     EXPECT_EQ(0, alliance_healer_builder->GetCharacter()->GetMF());
-    EXPECT_EQ(10, horde_warrior_builder->GetCharacter()->GetMF());
-    EXPECT_EQ(10, alliance_warrior_builder->GetCharacter()->GetMF());
+    EXPECT_EQ(18, horde_warrior_builder->GetCharacter()->GetMF());
+    EXPECT_EQ(18, alliance_warrior_builder->GetCharacter()->GetMF());
 }
 
 TEST_F(TestBuilder, BuildPowerOfMagic_Test) {
@@ -49,8 +53,8 @@ TEST_F(TestBuilder, BuildPowerOfMagic_Test) {
     alliance_healer_builder->BuildPowerOfMagic();
     horde_warrior_builder->BuildPowerOfMagic();
     alliance_warrior_builder->BuildPowerOfMagic();
-    EXPECT_EQ(10, horde_healer_builder->GetCharacter()->GetPM());
-    EXPECT_EQ(10, alliance_healer_builder->GetCharacter()->GetPM());
+    EXPECT_EQ(5, horde_healer_builder->GetCharacter()->GetPM());
+    EXPECT_EQ(5, alliance_healer_builder->GetCharacter()->GetPM());
     EXPECT_EQ(0, horde_warrior_builder->GetCharacter()->GetPM());
     EXPECT_EQ(0, alliance_warrior_builder->GetCharacter()->GetPM());
 }

@@ -6,6 +6,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/gameproject.dir/Tests/BuilderTest.cpp.o"
   "CMakeFiles/gameproject.dir/Tests/TestClassHealerWithFraction.cpp.o"
   "CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.o"
+  "CMakeFiles/gameproject.dir/Structure.cpp.o"
+  "CMakeFiles/gameproject.dir/Relationships.cpp.o"
+  "CMakeFiles/gameproject.dir/Interface.cpp.o"
+  "CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o"
+  "CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o"
+  "CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o"
+  "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o"
   "gameproject.pdb"
   "gameproject"
 )

@@ -68,11 +68,13 @@ CMAKE_BINARY_DIR = /home/anatoly/projects/gameproject/cmake-build-debug
 # Target rules for target CMakeFiles/gameproject.dir
 
 # All Build rule for target.
+CMakeFiles/gameproject.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
+CMakeFiles/gameproject.dir/all: lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/gameproject.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 CMakeFiles/gameproject.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/depend
 	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target gameproject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target gameproject"
 .PHONY : CMakeFiles/gameproject.dir/all
 
 # Include target in all.
@@ -82,7 +84,7 @@ all: CMakeFiles/gameproject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gameproject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gameproject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/gameproject.dir/rule
@@ -150,7 +152,7 @@ lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-m
 lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target gmock_main"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -187,7 +189,7 @@ clean: lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean
 lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target gmock"
 .PHONY : lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -244,7 +246,7 @@ lib/googletest-master/googlemock/gtest/preinstall:
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target gtest_main"
 .PHONY : lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -281,7 +283,7 @@ clean: lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target gtest"
 .PHONY : lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.

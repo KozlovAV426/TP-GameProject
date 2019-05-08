@@ -42,7 +42,7 @@ public:
 
 class HordeWarriorBuilder : public CharacterBuilder {
 public:
-    HordeWarriorBuilder();
+    HordeWarriorBuilder() = default;
 
     virtual Unit* CreateNewUnit() override;
 
@@ -59,7 +59,7 @@ public:
 
 class HordeHealerBuilder : public CharacterBuilder {
 public:
-    HordeHealerBuilder();
+    HordeHealerBuilder() = default;
 
     virtual Unit* CreateNewUnit() override;
 
@@ -76,7 +76,7 @@ public:
 
 class AllianceWarriorBuilder : public CharacterBuilder {
 public:
-    AllianceWarriorBuilder();
+    AllianceWarriorBuilder() = default;
 
     virtual Unit* CreateNewUnit() override;
 
@@ -94,7 +94,7 @@ public:
 
 class AllianceHealerBuilder : public CharacterBuilder {
 public:
-    AllianceHealerBuilder();
+    AllianceHealerBuilder() = default;
 
     virtual Unit* CreateNewUnit() override;
 

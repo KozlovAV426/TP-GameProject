@@ -30,20 +30,16 @@ void CharacterGenerator::CreateUnitsConfiguration() {
 
 /////////////////////////////////////////////////////////////// Builders
 
-HordeWarriorBuilder::HordeWarriorBuilder() {
-    character_ = new HordeWarrior;
-}
-
 Unit* HordeWarriorBuilder::CreateNewUnit() {
     character_ = new HordeWarrior;
 }
 
 void HordeWarriorBuilder::BuildHealthPoints() {
-    character_->SetHealthPoints(100);
+    character_->SetHealthPoints(15);
 }
 
 void HordeWarriorBuilder::BuildMeleeForce() {
-    character_->SetMeleeForce(10);
+    character_->SetMeleeForce(18);
 }
 
 void HordeWarriorBuilder::BuildPowerOfMagic() {
@@ -60,16 +56,12 @@ void HordeWarriorBuilder::BuildUnitName()  {
 
 /////////////////////////////////////////////////
 
-AllianceHealerBuilder::AllianceHealerBuilder() {
-    character_ = new AllianceHealer;
-}
-
 Unit* AllianceHealerBuilder::CreateNewUnit() {
     character_ = new AllianceHealer;
 }
 
 void AllianceHealerBuilder::BuildHealthPoints() {
-    character_->SetHealthPoints(50);
+    character_->SetHealthPoints(10);
 }
 
 void AllianceHealerBuilder::BuildMeleeForce() {
@@ -77,7 +69,7 @@ void AllianceHealerBuilder::BuildMeleeForce() {
 }
 
 void AllianceHealerBuilder::BuildPowerOfMagic() {
-    character_->SetPowerOfMagic(10);
+    character_->SetPowerOfMagic(5);
 }
 
 void AllianceHealerBuilder::BuildFraction() {
@@ -90,20 +82,16 @@ void AllianceHealerBuilder::BuildUnitName()  {
 
 ///////////////////////////////////////////////////////
 
-AllianceWarriorBuilder::AllianceWarriorBuilder() {
-    character_ = new AllianceWarrior;
-}
-
 Unit* AllianceWarriorBuilder::CreateNewUnit() {
     character_ = new AllianceWarrior;
 }
 
 void AllianceWarriorBuilder::BuildHealthPoints() {
-    character_->SetHealthPoints(100);
+    character_->SetHealthPoints(15);
 }
 
 void AllianceWarriorBuilder::BuildMeleeForce() {
-    character_->SetMeleeForce(10);
+    character_->SetMeleeForce(18);
 }
 
 void AllianceWarriorBuilder::BuildPowerOfMagic() {
@@ -120,16 +108,12 @@ void AllianceWarriorBuilder::BuildUnitName()  {
 
 ///////////////////////////////////////////////////
 
-HordeHealerBuilder::HordeHealerBuilder() {
-    character_ = new HordeHealer;
-}
-
 Unit* HordeHealerBuilder::CreateNewUnit() {
     character_ = new HordeHealer;
 }
 
 void HordeHealerBuilder::BuildHealthPoints() {
-    character_->SetHealthPoints(50);
+    character_->SetHealthPoints(10);
 }
 
 void HordeHealerBuilder::BuildMeleeForce() {
@@ -137,7 +121,7 @@ void HordeHealerBuilder::BuildMeleeForce() {
 }
 
 void HordeHealerBuilder::BuildPowerOfMagic() {
-    character_->SetPowerOfMagic(10);
+    character_->SetPowerOfMagic(5);
 }
 
 void HordeHealerBuilder::BuildFraction() {

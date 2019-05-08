@@ -142,10 +142,10 @@ TEST_F(TestWarriorWithFraction, ToDamage_Test) {
     Unit* warrior_enemy = new AllianceWarrior;
     warrior_enemy->SetHealthPoints(200);
     alliance_warrior->SetMeleeForce(10);
-    alliance_warrior->ToDamage(*warrior_enemy);
+    alliance_warrior->ToDamage(warrior_enemy);
     EXPECT_EQ(warrior_enemy->GetHP(), 190);
     horde_warrior->SetMeleeForce(20);
-    horde_warrior->ToDamage(*warrior_enemy);
+    horde_warrior->ToDamage(warrior_enemy);
     EXPECT_EQ(warrior_enemy->GetHP(), 170);
     delete warrior_enemy;
 }

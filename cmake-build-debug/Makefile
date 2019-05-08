@@ -275,6 +275,87 @@ ClassesOfUnits.cpp.s:
 	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/ClassesOfUnits.cpp.s
 .PHONY : ClassesOfUnits.cpp.s
 
+Interface.o: Interface.cpp.o
+
+.PHONY : Interface.o
+
+# target to build an object file
+Interface.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Interface.cpp.o
+.PHONY : Interface.cpp.o
+
+Interface.i: Interface.cpp.i
+
+.PHONY : Interface.i
+
+# target to preprocess a source file
+Interface.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Interface.cpp.i
+.PHONY : Interface.cpp.i
+
+Interface.s: Interface.cpp.s
+
+.PHONY : Interface.s
+
+# target to generate assembly for a file
+Interface.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Interface.cpp.s
+.PHONY : Interface.cpp.s
+
+Relationships.o: Relationships.cpp.o
+
+.PHONY : Relationships.o
+
+# target to build an object file
+Relationships.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Relationships.cpp.o
+.PHONY : Relationships.cpp.o
+
+Relationships.i: Relationships.cpp.i
+
+.PHONY : Relationships.i
+
+# target to preprocess a source file
+Relationships.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Relationships.cpp.i
+.PHONY : Relationships.cpp.i
+
+Relationships.s: Relationships.cpp.s
+
+.PHONY : Relationships.s
+
+# target to generate assembly for a file
+Relationships.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Relationships.cpp.s
+.PHONY : Relationships.cpp.s
+
+Structure.o: Structure.cpp.o
+
+.PHONY : Structure.o
+
+# target to build an object file
+Structure.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Structure.cpp.o
+.PHONY : Structure.cpp.o
+
+Structure.i: Structure.cpp.i
+
+.PHONY : Structure.i
+
+# target to preprocess a source file
+Structure.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Structure.cpp.i
+.PHONY : Structure.cpp.i
+
+Structure.s: Structure.cpp.s
+
+.PHONY : Structure.s
+
+# target to generate assembly for a file
+Structure.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Structure.cpp.s
+.PHONY : Structure.cpp.s
+
 Tests/BuilderTest.o: Tests/BuilderTest.cpp.o
 
 .PHONY : Tests/BuilderTest.o
@@ -328,6 +409,114 @@ Tests/DirectorTest.s: Tests/DirectorTest.cpp.s
 Tests/DirectorTest.cpp.s:
 	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.s
 .PHONY : Tests/DirectorTest.cpp.s
+
+Tests/InteractionTest(gmock).o: Tests/InteractionTest(gmock).cpp.o
+
+.PHONY : Tests/InteractionTest(gmock).o
+
+# target to build an object file
+Tests/InteractionTest(gmock).cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o"
+.PHONY : Tests/InteractionTest(gmock).cpp.o
+
+Tests/InteractionTest(gmock).i: Tests/InteractionTest(gmock).cpp.i
+
+.PHONY : Tests/InteractionTest(gmock).i
+
+# target to preprocess a source file
+Tests/InteractionTest(gmock).cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.i"
+.PHONY : Tests/InteractionTest(gmock).cpp.i
+
+Tests/InteractionTest(gmock).s: Tests/InteractionTest(gmock).cpp.s
+
+.PHONY : Tests/InteractionTest(gmock).s
+
+# target to generate assembly for a file
+Tests/InteractionTest(gmock).cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.s"
+.PHONY : Tests/InteractionTest(gmock).cpp.s
+
+Tests/RelationshipsTest.o: Tests/RelationshipsTest.cpp.o
+
+.PHONY : Tests/RelationshipsTest.o
+
+# target to build an object file
+Tests/RelationshipsTest.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o
+.PHONY : Tests/RelationshipsTest.cpp.o
+
+Tests/RelationshipsTest.i: Tests/RelationshipsTest.cpp.i
+
+.PHONY : Tests/RelationshipsTest.i
+
+# target to preprocess a source file
+Tests/RelationshipsTest.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.i
+.PHONY : Tests/RelationshipsTest.cpp.i
+
+Tests/RelationshipsTest.s: Tests/RelationshipsTest.cpp.s
+
+.PHONY : Tests/RelationshipsTest.s
+
+# target to generate assembly for a file
+Tests/RelationshipsTest.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.s
+.PHONY : Tests/RelationshipsTest.cpp.s
+
+Tests/StressTests.o: Tests/StressTests.cpp.o
+
+.PHONY : Tests/StressTests.o
+
+# target to build an object file
+Tests/StressTests.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o
+.PHONY : Tests/StressTests.cpp.o
+
+Tests/StressTests.i: Tests/StressTests.cpp.i
+
+.PHONY : Tests/StressTests.i
+
+# target to preprocess a source file
+Tests/StressTests.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StressTests.cpp.i
+.PHONY : Tests/StressTests.cpp.i
+
+Tests/StressTests.s: Tests/StressTests.cpp.s
+
+.PHONY : Tests/StressTests.s
+
+# target to generate assembly for a file
+Tests/StressTests.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StressTests.cpp.s
+.PHONY : Tests/StressTests.cpp.s
+
+Tests/StructureTests.o: Tests/StructureTests.cpp.o
+
+.PHONY : Tests/StructureTests.o
+
+# target to build an object file
+Tests/StructureTests.cpp.o:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o
+.PHONY : Tests/StructureTests.cpp.o
+
+Tests/StructureTests.i: Tests/StructureTests.cpp.i
+
+.PHONY : Tests/StructureTests.i
+
+# target to preprocess a source file
+Tests/StructureTests.cpp.i:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.i
+.PHONY : Tests/StructureTests.cpp.i
+
+Tests/StructureTests.s: Tests/StructureTests.cpp.s
+
+.PHONY : Tests/StructureTests.s
+
+# target to generate assembly for a file
+Tests/StructureTests.cpp.s:
+	$(MAKE) -f CMakeFiles/gameproject.dir/build.make CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.s
+.PHONY : Tests/StructureTests.cpp.s
 
 Tests/TestClassHealerWithFraction.o: Tests/TestClassHealerWithFraction.cpp.o
 
@@ -433,12 +622,33 @@ help:
 	@echo "... ClassesOfUnits.o"
 	@echo "... ClassesOfUnits.i"
 	@echo "... ClassesOfUnits.s"
+	@echo "... Interface.o"
+	@echo "... Interface.i"
+	@echo "... Interface.s"
+	@echo "... Relationships.o"
+	@echo "... Relationships.i"
+	@echo "... Relationships.s"
+	@echo "... Structure.o"
+	@echo "... Structure.i"
+	@echo "... Structure.s"
 	@echo "... Tests/BuilderTest.o"
 	@echo "... Tests/BuilderTest.i"
 	@echo "... Tests/BuilderTest.s"
 	@echo "... Tests/DirectorTest.o"
 	@echo "... Tests/DirectorTest.i"
 	@echo "... Tests/DirectorTest.s"
+	@echo "... Tests/InteractionTest(gmock).o"
+	@echo "... Tests/InteractionTest(gmock).i"
+	@echo "... Tests/InteractionTest(gmock).s"
+	@echo "... Tests/RelationshipsTest.o"
+	@echo "... Tests/RelationshipsTest.i"
+	@echo "... Tests/RelationshipsTest.s"
+	@echo "... Tests/StressTests.o"
+	@echo "... Tests/StressTests.i"
+	@echo "... Tests/StressTests.s"
+	@echo "... Tests/StructureTests.o"
+	@echo "... Tests/StructureTests.i"
+	@echo "... Tests/StructureTests.s"
 	@echo "... Tests/TestClassHealerWithFraction.o"
 	@echo "... Tests/TestClassHealerWithFraction.i"
 	@echo "... Tests/TestClassHealerWithFraction.s"

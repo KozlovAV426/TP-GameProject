@@ -148,6 +148,97 @@ CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Tests/DirectorTest.cpp -o CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.s
 
+CMakeFiles/gameproject.dir/Structure.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Structure.cpp.o: ../Structure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/gameproject.dir/Structure.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Structure.cpp.o -c /home/anatoly/projects/gameproject/Structure.cpp
+
+CMakeFiles/gameproject.dir/Structure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Structure.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Structure.cpp > CMakeFiles/gameproject.dir/Structure.cpp.i
+
+CMakeFiles/gameproject.dir/Structure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Structure.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Structure.cpp -o CMakeFiles/gameproject.dir/Structure.cpp.s
+
+CMakeFiles/gameproject.dir/Relationships.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Relationships.cpp.o: ../Relationships.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/gameproject.dir/Relationships.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Relationships.cpp.o -c /home/anatoly/projects/gameproject/Relationships.cpp
+
+CMakeFiles/gameproject.dir/Relationships.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Relationships.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Relationships.cpp > CMakeFiles/gameproject.dir/Relationships.cpp.i
+
+CMakeFiles/gameproject.dir/Relationships.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Relationships.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Relationships.cpp -o CMakeFiles/gameproject.dir/Relationships.cpp.s
+
+CMakeFiles/gameproject.dir/Interface.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Interface.cpp.o: ../Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/gameproject.dir/Interface.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Interface.cpp.o -c /home/anatoly/projects/gameproject/Interface.cpp
+
+CMakeFiles/gameproject.dir/Interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Interface.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Interface.cpp > CMakeFiles/gameproject.dir/Interface.cpp.i
+
+CMakeFiles/gameproject.dir/Interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Interface.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Interface.cpp -o CMakeFiles/gameproject.dir/Interface.cpp.s
+
+CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o: ../Tests/StructureTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o -c /home/anatoly/projects/gameproject/Tests/StructureTests.cpp
+
+CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Tests/StructureTests.cpp > CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.i
+
+CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Tests/StructureTests.cpp -o CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.s
+
+CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o: ../Tests/RelationshipsTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o -c /home/anatoly/projects/gameproject/Tests/RelationshipsTest.cpp
+
+CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Tests/RelationshipsTest.cpp > CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.i
+
+CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Tests/RelationshipsTest.cpp -o CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.s
+
+CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o: ../Tests/StressTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o -c /home/anatoly/projects/gameproject/Tests/StressTests.cpp
+
+CMakeFiles/gameproject.dir/Tests/StressTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Tests/StressTests.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anatoly/projects/gameproject/Tests/StressTests.cpp > CMakeFiles/gameproject.dir/Tests/StressTests.cpp.i
+
+CMakeFiles/gameproject.dir/Tests/StressTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Tests/StressTests.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anatoly/projects/gameproject/Tests/StressTests.cpp -o CMakeFiles/gameproject.dir/Tests/StressTests.cpp.s
+
+CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o: CMakeFiles/gameproject.dir/flags.make
+CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o: ../Tests/InteractionTest(gmock).cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o" -c "/home/anatoly/projects/gameproject/Tests/InteractionTest(gmock).cpp"
+
+CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/anatoly/projects/gameproject/Tests/InteractionTest(gmock).cpp" > "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.i"
+
+CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/anatoly/projects/gameproject/Tests/InteractionTest(gmock).cpp" -o "CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.s"
+
 # Object files for target gameproject
 gameproject_OBJECTS = \
 "CMakeFiles/gameproject.dir/main.cpp.o" \
@@ -156,7 +247,14 @@ gameproject_OBJECTS = \
 "CMakeFiles/gameproject.dir/Tests/TestClassWarriorWithFraction.cpp.o" \
 "CMakeFiles/gameproject.dir/Tests/BuilderTest.cpp.o" \
 "CMakeFiles/gameproject.dir/Tests/TestClassHealerWithFraction.cpp.o" \
-"CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.o"
+"CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.o" \
+"CMakeFiles/gameproject.dir/Structure.cpp.o" \
+"CMakeFiles/gameproject.dir/Relationships.cpp.o" \
+"CMakeFiles/gameproject.dir/Interface.cpp.o" \
+"CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o" \
+"CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o" \
+"CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o" \
+"CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o"
 
 # External object files for target gameproject
 gameproject_EXTERNAL_OBJECTS =
@@ -168,11 +266,20 @@ gameproject: CMakeFiles/gameproject.dir/Tests/TestClassWarriorWithFraction.cpp.o
 gameproject: CMakeFiles/gameproject.dir/Tests/BuilderTest.cpp.o
 gameproject: CMakeFiles/gameproject.dir/Tests/TestClassHealerWithFraction.cpp.o
 gameproject: CMakeFiles/gameproject.dir/Tests/DirectorTest.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Structure.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Relationships.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Interface.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Tests/StructureTests.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Tests/RelationshipsTest.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Tests/StressTests.cpp.o
+gameproject: CMakeFiles/gameproject.dir/Tests/InteractionTest(gmock).cpp.o
 gameproject: CMakeFiles/gameproject.dir/build.make
 gameproject: lib/libgtest_maind.a
+gameproject: lib/libgmock_maind.a
+gameproject: lib/libgmockd.a
 gameproject: lib/libgtestd.a
 gameproject: CMakeFiles/gameproject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable gameproject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/anatoly/projects/gameproject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable gameproject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gameproject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

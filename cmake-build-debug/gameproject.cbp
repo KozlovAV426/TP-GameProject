@@ -44,9 +44,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include"/>
 					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include"/>
 					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googletest"/>
+					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -70,9 +71,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include"/>
 					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googletest/include"/>
+					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include"/>
 					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googletest"/>
+					<Add directory="/home/anatoly/projects/gameproject/lib/googletest-master/googlemock"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -350,10 +352,40 @@
 		<Unit filename="/home/anatoly/projects/gameproject/ClassesOfUnits.h">
 			<Option target="gameproject"/>
 		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Interface.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Interface.h">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Relationships.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Relationships.h">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Structure.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Structure.h">
+			<Option target="gameproject"/>
+		</Unit>
 		<Unit filename="/home/anatoly/projects/gameproject/Tests/BuilderTest.cpp">
 			<Option target="gameproject"/>
 		</Unit>
 		<Unit filename="/home/anatoly/projects/gameproject/Tests/DirectorTest.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Tests/InteractionTest(gmock).cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Tests/RelationshipsTest.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Tests/StressTests.cpp">
+			<Option target="gameproject"/>
+		</Unit>
+		<Unit filename="/home/anatoly/projects/gameproject/Tests/StructureTests.cpp">
 			<Option target="gameproject"/>
 		</Unit>
 		<Unit filename="/home/anatoly/projects/gameproject/Tests/TestClassHealerWithFraction.cpp">

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googletest/include -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googletest 
+CXX_INCLUDES = -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googletest/include -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googlemock/include -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googletest -isystem /home/anatoly/projects/gameproject/lib/googletest-master/googlemock 
 

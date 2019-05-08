@@ -5,29 +5,29 @@ class Unit {
     friend class TestWarriorWithFraction;
     friend class TestHealerWithFraction;
 public:
-    virtual ~Unit() {};
+    virtual ~Unit() = default;
 
-    virtual void ToDamage(Unit& unit) = 0;
+    virtual void ToDamage(Unit* unit) = 0;
 
-    virtual void ToHeal(Unit& unit) = 0;
+    virtual void ToHeal(Unit* unit) = 0;
 
     virtual void FractionAction() = 0;
 
-    void SetHealthPoints(size_t points);
+    void SetHealthPoints(int points);
 
-    void SetMeleeForce(size_t points);
+    void SetMeleeForce(int points);
 
-    void SetPowerOfMagic(size_t points);
+    void SetPowerOfMagic(int points);
 
-    void SetFraction(std::string fraction);
+    void SetFraction(const std::string& fraction);
 
-    void SetUnitName(std::string unit_class);
+    void SetUnitName(const std::string& unit_class);
 
-    size_t GetHP();
+    int GetHP();
 
-    size_t GetMF();
+    int GetMF();
 
-    size_t GetPM();
+    int GetPM();
 
     std::string GetFraction();
 
@@ -35,8 +35,8 @@ public:
 
 protected:
     int health_points_ = 0;
-    size_t melee_force = 0;
-    size_t power_of_magic_ = 0;
+    int melee_force = 0;
+    int power_of_magic_ = 0;
     std::string fraction_;
     std::string unit_name_;
 };
@@ -47,9 +47,9 @@ public:
 
     virtual ~Warrior() override = default;
 
-    virtual void ToDamage(Unit& unit) override;
+    virtual void ToDamage(Unit* unit) override;
 
-    virtual void ToHeal(Unit& unit) override;
+    virtual void ToHeal(Unit* unit) override;
 };
 
 class HordeWarrior : public Warrior {
@@ -67,9 +67,9 @@ public:
 
     virtual ~Healer() override = default;
 
-    virtual void ToDamage(Unit& unit) override;
+    virtual void ToDamage(Unit* unit) override;
 
-    virtual void ToHeal(Unit& unit) override;
+    virtual void ToHeal(Unit* unit) override;
 };
 
 class HordeHealer : public Healer {

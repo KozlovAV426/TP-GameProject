@@ -71,16 +71,16 @@ TEST_F(CharacterGeneratorTest, GetUnit_Test) {
 TEST_F(CharacterGeneratorTest, CreateUnitsConfiguration_Test) {
     character_generator->SetBuilder(horde_warrior_builder);
     character_generator->CreateUnitsConfiguration();
-    EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetHP(), 100);
-    EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetMF(), 10);
+    EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetHP(), 15);
+    EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetMF(), 18);
     EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetPM(), 0);
     EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetFraction(), "Horde");
     EXPECT_EQ(horde_warrior_builder->GetCharacter()->GetUnitName(), "Warrior");
     character_generator->SetBuilder(alliance_healer_builder);
     character_generator->CreateUnitsConfiguration();
-    EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetHP(), 50);
+    EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetHP(), 10);
     EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetMF(), 0);
-    EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetPM(), 10);
+    EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetPM(), 5);
     EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetFraction(), "Alliance");
     EXPECT_EQ(alliance_healer_builder->GetCharacter()->GetUnitName(), "Healer");
 }
