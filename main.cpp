@@ -15,7 +15,7 @@ int main() {
     std::cin >> fraction;
     Game game(fraction);
     game.Handle();
-    game.logger_->Analyze();*/
+    game.logger_->Analyze(); */   // Simple Usabitity Test
 
     return 0;
 
