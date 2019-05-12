@@ -4,4 +4,12 @@ script:
   - mkdir build
   - cd build
   - cmake ..
+  - make
   - ./gameproject
+  
+notifications:
+  email:
+    recipients:
+      - kozlovanatoly06@yandex.ru
+    on_success: always # default: change
+    on_failure: always # default: always
